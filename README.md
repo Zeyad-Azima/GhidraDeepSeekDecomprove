@@ -2,6 +2,10 @@
 
 The GhidraDeepSeekDecomprove.py is a Ghidra script designed to enhance the readability of decompiled code by leveraging the DeepSeek Chat API. It intelligently renames variables based on their usage and optionally adds explanatory comments to the code. Integrated seamlessly into Ghidra, the script allows users to select specific functions, improve their decompiled output, and either save the results to a file or display them in a popup window with options to copy the code. It handles errors gracefully, such as failed decompilation or API issues, and provides feedback through Ghidra's logging system. The script is customizable, supporting different DeepSeek models and output configurations, making it a valuable tool for reverse engineers and security researchers aiming to streamline their workflow and improve code understanding.
 
+# Comparing
+![image](https://github.com/user-attachments/assets/2973528a-e51b-415a-a33a-f61511c877bf)
+
+
 # Usage
 - Add your DeekSeek API key `deepSeekApiKey = "your_deepseek_api"`
 - Go to `Window > Script Manager`
