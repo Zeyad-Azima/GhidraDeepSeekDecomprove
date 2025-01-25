@@ -6,6 +6,7 @@ The GhidraDeepSeekDecomprove.py is a Ghidra script designed to enhance the reada
 [![enhance the readability of decompiled code](https://img.youtube.com/vi/QrSUxFgh1Vg/maxresdefault.jpg)](https://youtu.be/QrSUxFgh1Vg)
 
 # Usage
+- Add your DeekSeek API key `deepSeekApiKey = "your_deepseek_api"`
 - Go to `Window > Script Manager`
 - Choose `Create New Script`
 
